@@ -1,0 +1,7 @@
+.app {
+    background-image: url(
+    "../assets/back.png"
+    );
+    background-size: "cover";
+    background-repeat: repeat;
+}

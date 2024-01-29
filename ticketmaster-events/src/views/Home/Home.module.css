@@ -1,0 +1,39 @@
+.pagination {
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10;
+}
+
+.page{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 3px;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.previous,
+.next{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.previous{
+    margin-right: 30px;
+}
+
+.next{
+    margin-left: 40px;
+}
+
+.activePage{
+    background-color: black;
+    color: azure;
+    border-radius: 20px;
+
+}
+.disablePage{
+    cursor: not-allowed;
+}
